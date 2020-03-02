@@ -1,0 +1,18 @@
+
+.navbar-container ul li{
+  display:inline-block;
+  text-decoration: none;
+  padding:5px;
+}
+
+.navbar-container ul li a{
+  list-style: none;
+  text-decoration: none;
+}
+.navbar-container {
+  background: linear-gradient(white), url("/images/p.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+
+}
