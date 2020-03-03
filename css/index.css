@@ -1,18 +1,61 @@
-
-.navbar-container ul li{
-  display:inline-block;
-  text-decoration: none;
-  padding:5px;
+body {
+  padding: 0;
+  margin: 0;
 }
+.navbar{
+background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3)),url("/images/img-1.jpg");
+background-size: cover;
+background-position: 0;
+height: 650px;
+}
+.logo-container {
+  float: left;
+}
+.logo-container img{
+  margin-top: -40px;
+}
+.navbar-container a:hover{
+  color: purple;
+}
+.icons-container {
+  text-align: center;
 
-.navbar-container ul li a{
-  list-style: none;
-  text-decoration: none;
 }
 .navbar-container {
-  background: linear-gradient(white), url("/images/p.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 900px;
+  float:right;
 
+}
+.content{
+  text-align: center;
+  color: purple;
+
+  font-size: 50px;
+}
+.contents h1{
+  margin-top: 200px;
+}
+/* .header{
+  text-align: center;
+  color: purple;
+  margin-top: -500px;
+  font-size: 50px;
+} */
+ul li {
+  display: inline;
+  padding: 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+.one img{
+  height: 400px;
+}
+.one{
+  text-align: center;
+}
+.time h2{
+text-align: center;
 }
